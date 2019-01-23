@@ -132,7 +132,7 @@ function R = weightedcorrs(Y, w)
 %   indexes = find(tril(I, -1));                                                  % Indexes of lower triangular square matrix
 %
 %   figure('Position', [50   50   950   630]);
-%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45° Line
+%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45Â° Line
 %   hold on;
 %   plot(r1(indexes), r2(indexes), '*', 'MarkerSize', 6);                         % Comparison between the coefficients of the two Matrices
 %   title('Identical correlations for Y and a * Y + b', ...                       % title label for the plot
@@ -194,7 +194,7 @@ function R = weightedcorrs(Y, w)
 %   indexes = find(tril(I, -1));                                                  % Indexes of lower triangular square matrix
 %
 %   figure('Position', [50   50   950   630]);
-%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45° Line
+%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45Â° Line
 %   hold on;
 %   plot(r1(indexes), r2(indexes), '*', 'MarkerSize', 6);                         % Comparison between the coefficients of the two Matrices
 %   str = 'Identical correlations after arbitrary affine transformations';
@@ -258,7 +258,7 @@ function R = weightedcorrs(Y, w)
 %   figure('Position', [50   50   950   630]);
 %   plot(r1(indexes), r2(indexes), '.');                                          % Comparison with the Traditional Correlation matrix
 %   hold on;
-%   plot([-1:1], [-1:1], 'r', 'LineWidth', 5);                                    % 45° Line
+%   plot([-1:1], [-1:1], 'r', 'LineWidth', 5);                                    % 45Â° Line
 %   title('Scatter Diagram for Traditional and Weighted Correlations', ...        % title label for the plot ...
 %       'FontSize', 20, 'FontWeight', 'Bold');                                    % ... font properties
 %   xlabel('Weighted Correlation coefficients', ...                               % x label ...
@@ -316,7 +316,7 @@ function R = weightedcorrs(Y, w)
 %   indexes = find(tril(I, -1));                                                  % Indexes of lower triangular square matrix
 %
 %   figure('Position', [50   50   950   630]);
-%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45° Line
+%   plot([-1:1], [-1:1], 'r', 'LineWidth', 10);                                   % 45Â° Line
 %   hold on;
 %   plot(r1(indexes), r2(indexes), '*', 'MarkerSize', 6);                         % Comparison with the Traditional Correlation matrix
 %   title('Scatter Diagram for Traditional and Weighted Correlations', ...        % title label for the plot ...
