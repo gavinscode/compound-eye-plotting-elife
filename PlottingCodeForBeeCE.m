@@ -7,7 +7,7 @@
 %set parameters here before running the script
 
 clear; clc; close all
-cd('C:LoadDirector'); %folder with data file
+cd('Add here'); %folder with data file - modfy as needed
 sDat = load('DataForPlots.mat'); %file to plot from
 
 toPlotMaps = [1 3]; %indices of specific bees to plot maps for
