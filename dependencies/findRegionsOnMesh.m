@@ -1,5 +1,4 @@
 function [ regionIds, regionlength, regionVals ] = findRegionsOnMesh( inputVertices, vertVals, localDist)
-
 %Written by Gavin Taylor, 2017. MIT License
 
     %similar to plot sorted isoline, but will assign points to regions

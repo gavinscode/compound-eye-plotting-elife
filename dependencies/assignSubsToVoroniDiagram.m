@@ -1,4 +1,6 @@
 function [ voroniLabels ] = assignSubsToVoroniDiagram(xyz, sX, sY, sZ )
+%Written by Gavin Taylor, 2017. MIT License
+
     voroniLabels = zeros(length(sX),1); 
 
     xyz = bsxfun(@rdivide, xyz, sqrt(sum(xyz.^2,1)));
