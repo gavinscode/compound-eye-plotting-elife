@@ -8,7 +8,7 @@ The results calculated in the publications can be plotted either by running the 
 
 All other scripts are dependencies. Several scripts in this repository were obtained from the Mathworks File Exchange or the Mathworks website. These files are dependencies for the scripts I wrote, although some have been modified. The original authors of those files may have given the scripts different licences from the MIT license that covers this repository, and those licenses may take precedence over the license of this repository. 
 
-The files written for this project are with the name ‘Gavin Taylor’ at the start of each script and are covered by the MIT licence. 
+The files written for this project have the name ‘Gavin Taylor’ at the start of each script and are covered by the MIT licence. 
 Contact gavin.taylor.01@gmail.com for assistance.
 
 Resources:
